@@ -7,10 +7,10 @@ describe("Reverse", function () {
         const str = "Hello world, I'm a string!";
         const reverseOnce = Reverse.reverse(str);
         const reverseTwice = Reverse.reverse(reverseOnce);
-        if (reverseOnce !== str) {
+        if (reverseTwice !== str) {
             throw new Error(
                 `The string "${str}" should be equal to itself reversed twice` +
-                ` "${reverseTwice}", but is not.`
+                ` "${reverseOnce}", but is not.`
             );
         }
     });
