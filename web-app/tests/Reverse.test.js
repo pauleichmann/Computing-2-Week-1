@@ -10,7 +10,7 @@ describe("Reverse", function () {
         if (reverseOnce !== str) {
             throw new Error(
                 `The string "${str}" should be equal to itself reversed twice` +
-                ` "${reverseOnce}", but is not.`
+                ` "${reverseTwice}", but is not.`
             );
         }
     });
